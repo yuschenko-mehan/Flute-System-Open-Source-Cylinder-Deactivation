@@ -149,7 +149,7 @@ If you find this project useful, please consider supporting my research. Your co
 Direct Bank Transfer (IBAN): UA183052990000026209884907769 (PrivatBank, UAH)
 
 📷 Scan to donate (PrivatBank):
-<img width="150" alt="QR code for donation" src="https://raw.githubusercontent.com/yuschenko-mehan/Flute-System-Open-Source-Cylinder-Deactivation/docs/24.png" />
+![QR-код для донатів](docs/24.png)
 
 Contact me for details or alternative methods.
 
