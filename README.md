@@ -184,9 +184,7 @@ If you find this project useful, please consider supporting the research. Your c
 **Scan QR code to donate:**
 
 <div align="center">
-
-![Donate QR Code](docs/24.png)
-
+  <img src="docs/24.png" width="200" alt="Donate QR Code">
 </div>
 
 > 📩 Contact the author for alternative payment methods.
