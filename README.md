@@ -2,8 +2,6 @@
 
 [![Platform: STM32](https://img.shields.io/badge/MCU-STM32F405_@168MHz-orange.svg)](https://www.st.com/en/microcontrollers-microprocessors/stm32f405.html)
 [![Connectivity: ESP32](https://img.shields.io/badge/IoT-ESP32_WiFi--BT-green.svg)](https://www.espressif.com/en/products/socs/esp32)
-[![License: MIT](https://img.shields.io/badge/Software-MIT-blue.svg)](LICENSE)
-[![Hardware: CERN OHL](https://img.shields.io/badge/Hardware-CERN_OHL_v2-darkgreen.svg)](LICENSE-HARDWARE.md)
 
 **An advanced, open-source cylinder deactivation system that eliminates pumping losses via compression-release valves, featuring dynamic lambda emulation, multi-engine profile support, and real-time IoT monitoring.**
 
@@ -20,10 +18,13 @@
 - [Installation & Usage](#installation--usage)
 - [Performance & Ecology](#performance--ecology)
 - [Contributing](#contributing)
+- [Support This Research](#support-this-research)
+- [About the Author](#about-the-author)
 - [License & Disclaimer](#license--disclaimer)
 
 ---
 
+<a name="overview"></a>
 ## 🎯 Overview
 
 Traditional cylinder deactivation systems (like GM AFM or Honda VCM) reduce fuel consumption by 15–20%, but they still suffer from **pumping losses** because the piston continues to compress trapped air. They also require complex, expensive valvetrain modifications.
@@ -32,6 +33,7 @@ The **Flute System** takes a radically different approach: it vents compressed a
 
 ---
 
+<a name="key-features"></a>
 ## ✨ Key Features
 
 ### 🧠 Intelligent Real-Time Control
@@ -54,6 +56,7 @@ The **Flute System** takes a radically different approach: it vents compressed a
 
 ---
 
+<a name="how-it-works"></a>
 ## 🔬 How It Works
 
 1. **Intake Stroke:** Fresh air enters the deactivated cylinder normally.
@@ -64,6 +67,7 @@ The **Flute System** takes a radically different approach: it vents compressed a
 
 ---
 
+<a name="system-architecture"></a>
 ## 🏗️ System Architecture
 
 ```text
@@ -76,12 +80,15 @@ The **Flute System** takes a radically different approach: it vents compressed a
                                       └──(GPIO BSRR)──> [Stealth Driver Modules]
                                                               ├──> [Dummy Injectors]
                                                               └──> [Flute Valves] ──> Atmosphere
+<a name="safety--fail-safes"></a>
 🛡️ Safety & Fail-Safes
 Boot Safety: On power-up, all GPIO pins forced LOW before any logic runs.
 
 Catalyst Protection: Skip-fire strategy maintains exhaust temperature above 300°C.
 
 Dynamic Lambda Sync: Hardware emulation engaged only during deactivation cycles.
+
+<a name="hardware-requirements"></a>
 
 🧰 Hardware Requirements
 Estimated total cost: $100 – $180 USD
@@ -96,6 +103,8 @@ Flyback Diodes	1N5822 (Schottky, 3A)	6
 Dummy Loads	Recycled Fuel Injectors (12–16Ω, electrically functional)	6
 Mechanical	M12x1.25 Conical Adapters (37°), High-temp Silicone Tubing, Check Valve	1 set
 📄 See hardware/BOM.md for a complete, linked parts list with global sourcing options.
+
+<a name="installation--usage"></a>
 
 🚀 Installation & Usage
 Mechanical Prep: Perform a "water test" on the cylinder head. Drill tangential holes (3mm → 5mm → 8mm → 10mm), tap M12x1.25, install conical adapters.
@@ -112,12 +121,16 @@ ESP32: Flash via Arduino IDE.
 
 Calibrate: Connect to "FluteSystem" Wi-Fi, open 192.168.4.1, select Engine Profile, adjust "Timing Offset".
 
+<a name="performance--ecology"></a>
+
 🌍 Performance & Ecology
 Fuel Economy: 30–40% savings during steady-state cruising and idle.
 
 CO₂ Reduction: ~1,200 kg/year for a typical 3.0L engine (15,000 km/year).
 
 Circular Economy: Upcycles end-of-life fuel injectors.
+
+<a name="contributing"></a>
 
 🤝 Contributing
 We welcome contributions! Please read CONTRIBUTING.md for guidelines. Ideas:
@@ -127,6 +140,8 @@ Add LUT configuration for a different engine firing order.
 Improve ESP32 web interface or OBD-II PID monitoring.
 
 Share bench-testing data or P-V diagrams.
+
+<a name="support-this-research"></a>
 
 💖 Support This Research
 If you find this project useful, please consider supporting my research. Your contributions help buy hardware for new prototypes and keep this project open-source.
@@ -140,8 +155,12 @@ Contact me for details or alternative methods.
 
 Goal: Raise $10,000 to build a commercial-grade test bench and adapt this controller for 10 popular car models. 100% of funds go to hardware and open-source development.
 
+<a name="about-the-author"></a>
+
 👨‍🔬 About the Author
 This project was developed by Mykola Yushchenko, a researcher and educator from the Kyiv National Automobile and Highway University (KNAHU, formerly KADI) — Ukraine's leading automotive engineering university since 1944. Leveraging deep expertise in internal combustion engine thermodynamics and embedded systems, the Flute System represents a novel approach to making existing vehicles more efficient without expensive OEM-level modifications.
+
+<a name="license--disclaimer"></a>
 
 ⚖️ License & Disclaimer
 Software: Licensed under the MIT License.
