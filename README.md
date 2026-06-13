@@ -1,11 +1,9 @@
 # 🎵 Flute System: Open-Source Cylinder Deactivation
 
 <div align="center">
-
-![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
-![Platform: STM32](https://img.shields.io/badge/Platform-STM32F405-green.svg)
-![Connectivity: ESP32](https://img.shields.io/badge/Connectivity-ESP32-orange.svg)
-![Status: Active](https://img.shields.io/badge/Status-Active%20Research-brightgreen.svg)
+[![Platform: STM32](https://img.shields.io/badge/MCU-STM32F405_@168MHz-orange.svg)](https://www.st.com/en/microcontrollers-microprocessors/stm32f405.html)
+[![Connectivity: ESP32](https://img.shields.io/badge/IoT-ESP32_WiFi--BT-green.svg)](https://www.espressif.com/en/products/socs/esp32)
+[![License: MIT](https://img.shields.io/badge/Software-MIT-blue.svg)](LICENSE)
 
 **An advanced, open-source cylinder deactivation system that eliminates pumping losses via compression-release valves, featuring dynamic lambda emulation, multi-engine profile support, and real-time IoT monitoring.**
 
