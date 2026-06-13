@@ -140,7 +140,6 @@ Direct Bank Transfer (IBAN): UA183052990000026209884907769 (PrivatBank, UAH)
 <img width="200" alt="QR-код для донатів" src="docs/24.png">
 
 Contact me for details or alternative methods.
-
 Goal: Raise $10,000 to build a commercial-grade test bench and adapt this controller for 10 popular car models. 100% of funds go to hardware and open-source development.
 
 <a name="about-the-author"></a>
