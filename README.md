@@ -174,7 +174,6 @@ Estimated total cost: $100 - $180 USD
 | Dummy Loads | Recycled Fuel Injectors (12–16Ω, electrically functional) | 6 |
 | Mechanical | M12x1.25 Conical Adapters (37°), High-temp Silicone Tubing, Check Valve | 1 set |
 
-> 📄 See [`hardware/BOM.md`](hardware/BOM.md) for a complete, linked parts list with global sourcing options.
 🚀 Installation & Usage
 Mechanical Prep: Perform a "water test" on the cylinder head to identify safe drilling zones. Drill tangential holes (3mm → 5mm → 8mm → 10mm), tap M12x1.25, and install conical adapters.
 Valve Mod: Block the nozzle of recycled injectors (epoxy or welding) while preserving the electromagnetic coil. Remove the internal filter basket.
