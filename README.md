@@ -108,39 +108,27 @@ Mechanical	M12x1.25 Conical Adapters (37°), High-temp Silicone Tubing, Check Va
 
 🚀 Installation & Usage
 Mechanical Prep: Perform a "water test" on the cylinder head. Drill tangential holes (3mm → 5mm → 8mm → 10mm), tap M12x1.25, install conical adapters.
-
 Valve Mod: Block nozzle of recycled injectors (epoxy or welding), preserve coil, remove internal filter basket.
-
 Wiring: Connect CKP/CMP sensors, CAN bus (OBD-II pins 6/14), and driver modules per hardware/GOLDEN_PIN_MAP.md.
-
 Flash Firmware:
-
 STM32: Compile and flash via STM32CubeIDE (ST-Link).
-
 ESP32: Flash via Arduino IDE.
-
 Calibrate: Connect to "FluteSystem" Wi-Fi, open 192.168.4.1, select Engine Profile, adjust "Timing Offset".
 
 <a name="performance--ecology"></a>
 
 🌍 Performance & Ecology
 Fuel Economy: 30–40% savings during steady-state cruising and idle.
-
 CO₂ Reduction: ~1,200 kg/year for a typical 3.0L engine (15,000 km/year).
-
 Circular Economy: Upcycles end-of-life fuel injectors.
 
 <a name="contributing"></a>
 
 🤝 Contributing
 We welcome contributions! Please read CONTRIBUTING.md for guidelines. Ideas:
-
 Add LUT configuration for a different engine firing order.
-
 Improve ESP32 web interface or OBD-II PID monitoring.
-
 Share bench-testing data or P-V diagrams.
-
 <a name="support-this-research"></a>
 
 💖 Support This Research
@@ -149,7 +137,7 @@ If you find this project useful, please consider supporting my research. Your co
 Direct Bank Transfer (IBAN): UA183052990000026209884907769 (PrivatBank, UAH)
 
 📷 Scan to donate (PrivatBank):
-![QR-код для донатів](docs/24.png)
+<img width="200" alt="QR-код для донатів" src="docs/24.png">
 
 Contact me for details or alternative methods.
 
