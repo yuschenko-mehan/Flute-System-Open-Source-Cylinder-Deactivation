@@ -201,11 +201,6 @@ Made with ❤️ for the open-source automotive engineering community.
 
 # 🚗 Adaptive Robotized Manual Transmission Controller for STM32
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Platform: STM32](https://img.shields.io/badge/MCU-STM32F103C8T6-orange.svg)](https://www.st.com)
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub-green.svg)](https://github.com/sponsors/yuschenko-mehan)
-[![Buy Me A Coffee](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange.svg)](https://www.buymeacoffee.com/yuschenko)
-
 **An open-source, aerospace-grade adaptive controller for robotized manual transmissions. Developed by a researcher from the National Aviation University (former KAI), Ukraine.**
 
 ---
