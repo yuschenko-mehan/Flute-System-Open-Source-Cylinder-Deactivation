@@ -156,16 +156,16 @@ Contact me for details or alternative methods.
 Goal: Raise $10,000 to build a commercial-grade test bench and adapt this controller for 10 popular car models. 100% of funds go to hardware and open-source development.
 
 <a name="about-the-author"></a>
+## 👨‍🔬 About the Author
 
-👨‍🔬 About the Author
-This project was developed by Mykola Yushchenko, a researcher and educator from the Kyiv National Automobile and Highway University (KNAHU, formerly KADI) — Ukraine's leading automotive engineering university since 1944. Leveraging deep expertise in internal combustion engine thermodynamics and embedded systems, the Flute System represents a novel approach to making existing vehicles more efficient without expensive OEM-level modifications.
+This project was created by **Mykola Yushchenko**, who studied at the **National Transport University (NTU, formerly KADI)** in Kyiv — a university with a long-standing automotive engineering tradition since 1944. Mykola now applies his knowledge of internal combustion engines and embedded systems as an educator at a college, developing practical solutions for vehicle efficiency. The Flute System is a result of his passion for making existing vehicles more efficient without requiring expensive OEM-level modifications, and he hopes it will benefit the open-source automotive community.
 
 <a name="license--disclaimer"></a>
 
 ⚖️ License & Disclaimer
 Software: Licensed under the MIT License.
 
-Hardware: Schematics and mechanical designs are licensed under the CERN Open Hardware Licence Version 2 (CERN OHL v2).
+Hardware: This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the LICENSE file for details.
 
 ⚠️ DISCLAIMER: This project involves modifying critical engine components and interfacing with vehicle electronics. Improper installation or use may result in engine damage, voided warranties, or failed emissions testing. The authors and contributors are not liable for any damage, injury, or loss resulting from the use of this system. Always consult a qualified mechanic and comply with local vehicle modification laws.
 
