@@ -1,6 +1,5 @@
 # 🎵 Flute System: Open-Source Cylinder Deactivation
 
-<div align="center">
 [![Platform: STM32](https://img.shields.io/badge/MCU-STM32F405_@168MHz-orange.svg)](https://www.st.com/en/microcontrollers-microprocessors/stm32f405.html)
 [![Connectivity: ESP32](https://img.shields.io/badge/IoT-ESP32_WiFi--BT-green.svg)](https://www.espressif.com/en/products/socs/esp32)
 [![License: MIT](https://img.shields.io/badge/Software-MIT-blue.svg)](LICENSE)
