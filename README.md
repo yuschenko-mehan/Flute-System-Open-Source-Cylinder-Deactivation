@@ -157,22 +157,22 @@ Safety is the cornerstone of this design. The system is engineered to default to
 Boot Safety: On power-up or Watchdog reset, all GPIO pins are atomically forced to LOW before any logic runs.
 Catalyst Protection: The Skip-Fire strategy ensures periodic firing, maintaining exhaust gas velocity and temperature, preventing the catalytic converter from dropping below its 300°C light-off threshold.
 Dynamic Lambda Sync: The hardware lambda emulation circuit is engaged only when cylinders are actively deactivated, ensuring the ECU receives authentic sensor data during normal operation to prevent dangerous lean conditions.
-🧰 Hardware Requirements
-Estimated total cost: $100 - $180 USD
 ## 🧰 Hardware Requirements
 
 **Estimated total cost: $100 – $180 USD**
 
-| Component | Specification | Qty |
-|-----------|---------------|-----|
-| Main MCU | STM32F405RGT6 (LQFP-64) Dev Board | 1 |
-| IoT Module | ESP32-WROOM-32 Dev Kit | 1 |
-| CAN Transceiver | TJA1050 (500 kbps) | 1 |
-| Power MOSFETs | IRLZ44N (Logic-Level, TO-220) | 12 |
-| High-Side Driver | VND5T050AK-E (Smart Power Switch) | 6 |
-| Flyback Diodes | 1N5822 (Schottky, 3A) | 6 |
-| Dummy Loads | Recycled Fuel Injectors (12–16Ω, electrically functional) | 6 |
-| Mechanical | M12x1.25 Conical Adapters (37°), High-temp Silicone Tubing, Check Valve | 1 set |
+|Component|Specification|Qty|
+|---------|-------------|---|
+|Main MCU|STM32F405RGT6 (LQFP-64) Dev Board|1|
+|IoT Module|ESP32-WROOM-32 Dev Kit|1|
+|CAN Transceiver|TJA1050 (500 kbps)|1|
+|Power MOSFETs|IRLZ44N (Logic-Level, TO-220)|12|
+|High-Side Driver|VND5T050AK-E (Smart Power Switch)|6|
+|Flyback Diodes|1N5822 (Schottky, 3A)|6|
+|Dummy Loads|Recycled Fuel Injectors (12–16Ω, electrically functional)|6|
+|Mechanical|M12x1.25 Conical Adapters (37°), High-temp Silicone Tubing, Check Valve|1 set|
+
+> 📄 See [`hardware/BOM.md`](hardware/BOM.md) for a complete, linked parts list with global sourcing options.
 
 🚀 Installation & Usage
 Mechanical Prep: Perform a "water test" on the cylinder head to identify safe drilling zones. Drill tangential holes (3mm → 5mm → 8mm → 10mm), tap M12x1.25, and install conical adapters.
