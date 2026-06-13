@@ -1,6 +1,4 @@
 # 🎵 Flute System: Open-Source Cylinder Deactivation
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform: STM32](https://img.shields.io/badge/MCU-STM32F405_@168MHz-orange.svg)](https://www.st.com/en/microcontrollers-microprocessors/stm32f405.html)
 [![Connectivity: ESP32](https://img.shields.io/badge/IoT-ESP32_WiFi--BT-green.svg)](https://www.espressif.com/en/products/socs/esp32)
 
@@ -160,18 +158,21 @@ Dynamic Lambda Sync: The hardware lambda emulation circuit is engaged only when 
 ## 🧰 Hardware Requirements
 
 **Estimated total cost: $100 – $180 USD**
-
-|Component|Specification|Qty|
-|---------|-------------|---|
-|Main MCU|STM32F405RGT6 (LQFP-64) Dev Board|1|
-|IoT Module|ESP32-WROOM-32 Dev Kit|1|
-|CAN Transceiver|TJA1050 (500 kbps)|1|
-|Power MOSFETs|IRLZ44N (Logic-Level, TO-220)|12|
-|High-Side Driver|VND5T050AK-E (Smart Power Switch)|6|
-|Flyback Diodes|1N5822 (Schottky, 3A)|6|
-|Dummy Loads|Recycled Fuel Injectors (12–16Ω, electrically functional)|6|
-|Mechanical|M12x1.25 Conical Adapters (37°), High-temp Silicone Tubing, Check Valve|1 set|
-
+----------------------------------------------------------------------------------------------------------
+|Component         |Specification                                                            |Qty        |
+| ---------------- | ------------------------------------------------------------------------| --------- |
+| Main MCU         | STM32F405RGT6 (LQFP-64) Dev Board                                       | 1         |
+| IoT Module       | ESP32-WROOM-32 Dev Kit                                                  | 1         |
+| CAN Transceiver  | TJA1050 (500 kbps)                                                      | 1         |
+| Power MOSFETs    | IRLZ44N (Logic-Level, TO-220)                                           |  12       |
+| High-Side Driver | VND5T050AK-E (Smart Power Switch)                                       | 6         |
+| Flyback Diodes   | 1N5822 (Schottky, 3A)                                                   | 6         |
+| Dummy Loads      | Recycled                                                                |           |
+| ---------------- | ----------------------------------------------------------------------- | --------- |
+| Flyback Diodes   | 1N5822 (Schottky, 3A)                                                   | 6         |
+| Dummy Loads      | Recycled Fuel Injectors (12-16Ω)                                        | 6         |
+| Mechanical       |  M12x1.25 Conical Adapters (37°), High-temp Silicone Tubing, Check Valve| 1 set     |
+----------------------------------------------------------------------------------------------------------
 > 📄 See [`hardware/BOM.md`](hardware/BOM.md) for a complete, linked parts list with global sourcing options.
 
 🚀 Installation & Usage
@@ -241,5 +242,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 ## 👨‍🔬 About the Author
 As a researcher. In **National Transport University (NTU, formerly KADI)** in Kyiv — Ukraine's leading automotive engineering university since 1944 — I've spent years studying internal combustion engine efficiency. One problem kept coming up in my lectures and research: **pumping losses**.
