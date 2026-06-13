@@ -1,0 +1,45 @@
+# STM32CubeIDE
+/.metadata/
+/RemoteSystemsTempFiles/
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+
+# Build outputs
+/Debug/
+/Release/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Arduino / ESP32
+*.cpp.o
+*.c.o
+*.S.o
+/core/
+/libraries/
+/sketch/
+.pio/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# KiCad (if you add PCB files later)
+*.kicad_prl
+*.kicad_pcb-bak
+fp-info-cache
+*-backups/
