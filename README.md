@@ -150,13 +150,13 @@ If awarded, 100% of prize money will be reinvested into:
 ---
 
 **Built with ❤️ for the open-source automotive engineering community.**
+
 🛡️ Safety & Fail-Safes
 Safety is the cornerstone of this design. The system is engineered to default to a safe state under any anomaly:
 Boot Safety: On power-up or Watchdog reset, all GPIO pins are atomically forced to LOW before any logic runs.
 Catalyst Protection: The Skip-Fire strategy ensures periodic firing, maintaining exhaust gas velocity and temperature, preventing the catalytic converter from dropping below its 300°C light-off threshold.
 Dynamic Lambda Sync: The hardware lambda emulation circuit is engaged only when cylinders are actively deactivated, ensuring the ECU receives authentic sensor data during normal operation to prevent dangerous lean conditions.
 ## 🧰 Hardware Requirements
-
 **Estimated total cost: $100 – $180 USD**
 ----------------------------------------------------------------------------------------------------------
 |Component         |Specification                                                            |Qty        |
@@ -208,8 +208,7 @@ Made with ❤️ for the open-source automotive engineering community.
 ## 💖 Support This Research
 If you find this project useful for your studies, car tuning, or engineering work, please consider supporting my research. Your contributions help me buy hardware for new prototypes and keep this project open-source.
 
-- **Direct Bank Transfer (IBAN):** UA183052990000026209884907769 (PrivatBank) - *Contact me for details <img width="792" height="792" alt="image" src="https://github.com/user-attachments/assets/3c6f9634-b79c-4bab-a1e0-0519abd611f2" />
-*
+- **Direct Bank Transfer (IBAN):** UA183052990000026209884907769 (PrivatBank) - *Contact me for details <img width="792" height="792" alt="24" src="https://github.com/user-attachments/assets/e0d92e08-b062-4ce9-89cf-077535512d13" /> *
 
 **Goal:** Raise $10,000 to build a commercial-grade test bench and adapt this controller for 10 different car models. 100% of funds go to hardware and open-source development.
 
