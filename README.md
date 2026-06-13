@@ -206,9 +206,8 @@ Made with ❤️ for the open-source automotive engineering community.
 ---
 
 ## 💖 Support This Research
-If you find this project useful for your studies, car tuning, or engineering work, please consider supporting my research. Your contributions help me buy hardware for new prototypes and keep this project open-source.
-
-- **Direct Bank Transfer (IBAN):** UA183052990000026209884907769 (PrivatBank) - *Contact me for details <img width="792" height="792" alt="24" src="https://github.com/user-attachments/assets/e0d92e08-b062-4ce9-89cf-077535512d13" /> *
+If you find this project useful for your studies, car tuning, or engineering work, please consider supporting my research. Your contributions help me buy hardware for new prototypes and keep this project open-source.docs
+- **Direct Bank Transfer (IBAN):** UA183052990000026209884907769 (PrivatBank) - *![Contact me for details](https://raw.githubusercontent.com/yuschenko-mehan/Flute-System-Open-Source-Cylinder-Deactivation/docs/24.png)*
 
 **Goal:** Raise $10,000 to build a commercial-grade test bench and adapt this controller for 10 different car models. 100% of funds go to hardware and open-source development.
 
